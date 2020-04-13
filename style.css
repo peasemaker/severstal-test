@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    height: 30px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.show-active .is-active {
+    display: table-row;
+}
+
+.show-active .not-active {
+    display: none;
+}
+
+.show-not-active .is-active {
+    display: none;
+}
+
+.show-not-active .is-not-active {
+    display: table-row;
+}
+
+.child {
+    display: none;
+    background-color: #ccc;
+}
